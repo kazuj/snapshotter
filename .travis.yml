@@ -17,6 +17,12 @@ matrix:
     - php: 7.2
       env:
         - DEPENDENCIES="--prefer-lowest --prefer-stable"
+    - php: 8.0
+      env:
+        - DEPENDENCIES=""
+    - php: 8.0
+      env:
+        - DEPENDENCIES="--prefer-lowest --prefer-stable"
 
 before_script:
   - mkdir -p "$HOME/.php-cs-fixer"
