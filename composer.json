@@ -30,9 +30,9 @@
         "prooph/snapshot-store" : "^1.0"
     },
     "require-dev" : {
-        "phpunit/phpunit": "^6.0",
+        "phpunit/phpunit": "^9.0",
         "phpspec/prophecy": "^1.7",
-        "prooph/php-cs-fixer-config": "^0.3",
+        "prooph/php-cs-fixer-config": "^0.4",
         "prooph/bookdown-template": "^0.2.3",
         "satooshi/php-coveralls": "^1.0"
     },
