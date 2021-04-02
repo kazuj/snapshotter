@@ -24,7 +24,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^7.1 | ^8.0",
+        "php": "^7.3 || ^8.0",
         "prooph/event-sourcing" : "^5.0",
         "prooph/event-store" : "^7.0",
         "prooph/snapshot-store" : "^1.0"
